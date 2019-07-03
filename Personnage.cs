@@ -3,4 +3,5 @@ class Personnage{
 	Personnage(string n){
 	 this.nom = n;
 	 }
+	 void frapper( Personnagep, int force){}
 }
