@@ -3,5 +3,6 @@ class Personnage{
 	Personnage(string n){
 	 this.nom = n;
 	 }
-	 void frapper( Personnagep, int force){}
+	 public void Frapper( Personnage p, int force){}
+	  public void Deplacer( Direction direction){}
 }
